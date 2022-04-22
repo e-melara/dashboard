@@ -1,11 +1,13 @@
 import { FC } from 'react'
 
+import { LoginPage } from 'app/pages'
+
 const App: FC = () => {
   return (
     <>
-      <h1>Hola Mundo</h1>
+      <LoginPage />
     </>
   )
 }
 
-export default App;
+export default App
